@@ -1,0 +1,55 @@
+html,
+body {
+  width: 100%;
+  height: 90%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#root,
+.app {
+  width: 70%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav *,
+header div * {
+  padding: 10px;
+}
+
+main {
+  margin: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form .buttons {
+  display: flex;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+fieldset input,
+fieldset label {
+  padding: 5px;
+}

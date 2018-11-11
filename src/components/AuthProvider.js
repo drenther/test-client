@@ -24,7 +24,6 @@ class AuthProvider extends PureComponent {
       const {
         payload: { exp, name },
       } = jwt.decode(token, { complete: true });
-      console.log(exp);
       if (exp > parseInt(new Date().getTime() / 1000, 10)) {
         this.setState({
           loggedIn: true,

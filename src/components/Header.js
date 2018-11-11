@@ -11,7 +11,7 @@ const Header = ({ loggedIn, name, logout }) => (
     <div>
       {loggedIn ? (
         <Fragment>
-          <span>{name}</span>
+          <span>Hello, {name} | </span>
           <button onClick={logout}>Logout</button>
         </Fragment>
       ) : (
